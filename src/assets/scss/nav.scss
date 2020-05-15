@@ -1,0 +1,35 @@
+
+/*Burger*/
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 5%;
+    align-items: baseline;
+    padding: 1em 0;
+    border-bottom: 1px solid #eee;
+}
+
+.burger-nav{
+
+    &:hover{
+        cursor: pointer;
+    }
+    
+    .span-line-burger{
+        background: #1f1f1f;
+        height: 2px;
+        width: 35px;
+        display: block;
+        margin: 7px 0;
+        cursor: pointer;
+    }
+}
+
+.heading-nav{
+    h1{
+        font-weight: bold;
+        font-size: 2.2em; 
+    }
+}
