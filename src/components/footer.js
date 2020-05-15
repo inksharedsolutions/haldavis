@@ -77,7 +77,7 @@ const Footer = ()=>{
 										Privacy Policy
 									</Link>
 
-									<Link to={'terms-conditions'}>
+									<Link to={'terms-and-conditions'}>
 										Terms & Conditions
 									</Link>
 								</li>

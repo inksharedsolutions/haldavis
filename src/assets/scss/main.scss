@@ -231,8 +231,8 @@
     height: 11px;
     border-top: 2px solid #66ccb8;
     border-left: 2px solid #66ccb8;
-
 }
+
 .arrow-right,
 .long-arrow-right{
  transform: rotate(135deg);
@@ -267,13 +267,11 @@
 
 
 
-
 .long-arrow-right{
     margin-left: 48px;
 }
 
 /*Lower*/
-
 .grid-cont{
     display: grid;
     grid-template-columns: 80% 1fr;
@@ -307,6 +305,7 @@
         font-size: 6em;
         color: #fff;
         margin: 0.5em 0;
+        font-weight: 700;
 
         span{
             display: block;
