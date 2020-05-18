@@ -9,25 +9,31 @@ import LowerMain from '../components/lower-main'
 import BottomMain from '../components/bottom-main'
 import Footer from '../components/footer'
 
-const IndexPage = () => (
-    <>  
 
-        <div className="strips">
-            <div className="s-one"></div>
-            <div className="s-two"></div> 
-            <div className="s-three"></div>
-        </div> 
-         
-        <Nav/>
-        <Banner/>
-        <UpperMain/>
-        <MidMain/>
-        <Main/>
-        <LowerMain/>
-        <BottomMain/>
-        <Footer/>
+const IndexPage = () => {
+
+     
+
     
-    </> 
-) 
+    return (
+        <>  
+            <div className="strips">
+                <div className="s-one"></div>
+                <div className="s-two"></div> 
+                <div className="s-three"></div>
+            </div> 
+            
+            <Nav/>
+            <Banner/>
+            <UpperMain/>
+            <MidMain/>
+            <Main/>
+            <LowerMain/>
+            <BottomMain/>
+            <Footer/>
+        
+        </>
+    )
+}
 
 export default IndexPage

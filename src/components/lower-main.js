@@ -1,9 +1,41 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {Link} from 'gatsby';
 import Book1 from '../../static/img/book_1.jpg'
 import Book2 from '../../static/img/book_2.jpg'
+import { TweenMax, TimelineMax, Timeline, gsap } from "gsap";
 
 const LowerMain = () =>{
+
+    const tl  = new TimelineMax();
+
+    
+    useEffect(() => {
+  
+        window.addEventListener('scroll',  scrollHandler);
+
+        return ()=>{
+            window.removeEventListener('scroll', scrollHandler);
+        }
+
+    },[]);
+
+
+    const scrollHandler = (event)=>{
+
+         if ( window.pageYOffset > 2000 ){
+
+            tl.to('.first-book img', 2,
+                {clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)" });
+
+         }if( window.pageXOffset > 2500){
+            tl.to('.second-book img', 2,
+                {clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)" });
+         }
+
+    }
+
+
+
     return(
         <>
         <div className="content-container">
@@ -16,7 +48,9 @@ const LowerMain = () =>{
 
                 <div className="wrapper-ups">
                     <div className="lower-content section-two-col-grid">
-                        <div className="content-wrapper-ft">
+                        <div className="content-wrapper-ft" 
+                             data-aos="fade-up"
+                             data-aos-duration="3000">
                             
                             <span className="fb-num left-span">
                                 <span>01</span>
@@ -42,19 +76,22 @@ const LowerMain = () =>{
 
                         </div>
 
-                        <div className="img-book-container">
+                        <div className="first-book img-book-container">
                             <img src={Book1}/>
                         </div>
+
                     </div>
 
 
                     <div className="lower-content section-two-col-grid">
 
-                        <div className="img-book-container overlap">
+                        <div className="second-book img-book-container overlap">
                             <img src={Book2}/>
                         </div>
 
-                        <div className="content-wrapper-ft">
+                        <div className="content-wrapper-ft"
+                             data-aos="fade-up"
+                             data-aos-duration="3000">
                             <span className="fb-num right-span">
                                 <span>02</span>
                             </span>

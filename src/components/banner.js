@@ -1,9 +1,23 @@
 import React, {useRef, useEffect} from 'react'
 import Mountain from '../../static/img/mountain_ft.png'
+import Parallax from 'parallax-js'
 
 const Banner = ()=>{
 
     const headingRef = useRef(null);
+    const refText = useRef(null);
+
+    // useEffect(
+    //     () => {  
+
+    //         var scene = refText.current.querySelector('#scene');
+    //         var parallaxInstance = new Parallax(refText.current, {
+    //             relativeInput: true
+    //         });
+
+    //         parallaxInstance.friction(0.05, 0.05);
+    //     },
+    // [refText.current]);
 
     useEffect(
         () => {  
@@ -19,14 +33,15 @@ const Banner = ()=>{
             })
         },
         [headingRef.current],
-      );
+    );
+    
 
     return (
         <>
             <section className="banner-section">
                 <div className="banner-wrapper" ref={headingRef}>
                     
-                    <div className="img-wrapper">
+                    <div className="img-wrapper" id="scene"> 
                         <img  
                             alt="mountain" 
                             src={Mountain} 
@@ -38,8 +53,11 @@ const Banner = ()=>{
                         <span className="span-italice">The</span>
                     </h6>
 
-                    <div className="text-heading-wrapper">
-                        <h1
+                    <div id="scene" 
+                         className="text-heading-wrapper"
+                         ref={refText}>
+
+                        <h1 data-depth="0.2"
                             className="heading-banner">
                             Mountains
                         </h1>

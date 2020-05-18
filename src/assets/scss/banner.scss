@@ -13,8 +13,16 @@
     transform: translateY(18px);
     img{
         width: 80%;
+        position: relative;
+        animation-name: bounce;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
     }
 }
+
+// .text-heading-wrapper{
+//     position: absolute;
+// }
 
 .bottom-heading-bn{
     position: relative;
@@ -84,3 +92,27 @@
     z-index: -2;
     border: 7px solid #28c9bdab;
 }
+
+
+
+.wrapper-author-image,
+.img-book-container,
+.second-book{
+    img{
+        clip-path: polygon(0 0, 100% 0% , 100% 0 , 0 0);
+    }
+}
+
+/*Animation*/
+
+@keyframes bounce {
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: 30px;
+    }
+    100% {
+      top: 0px;
+    }
+  }

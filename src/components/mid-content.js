@@ -8,7 +8,10 @@ const MidContent = ()=>{
             <section className="mid-content section-two-col-grid">
             
                     <div className="event-heading">
-                        <h1>
+                        <h1 data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
+                                
                             <span className="tagline-wr">
                                 <span></span>
                                 <span>Life</span>
@@ -23,13 +26,13 @@ const MidContent = ()=>{
                     </div>
 
                     <div className="event-date-wrappers">
-                        <div className="event-ft">
+                        <div className="event-ft" data-aos="fade-up" >
                             <span>01</span>
                             <h5>Book Conference in Javit Center NYC</h5>
                             <p>July 25-26, 2020</p>
                         </div>
 
-                        <div className="event-ft">
+                        <div className="event-ft"  data-aos="fade-up">
                             <span>02</span>
                             <h5>Frankfurt International Book Fair</h5>
                             <p>July 25-26, 2020</p>
