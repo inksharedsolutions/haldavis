@@ -6,7 +6,7 @@ const Testimonial = (props)=>{
     return(
         <>
 
-        <div className="grid-testimonals-container">
+        <div className="grid-testimonals-container" >
             <p>
                 {props.content}
             </p>

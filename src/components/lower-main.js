@@ -24,15 +24,15 @@ const LowerMain = () =>{
 
          if ( window.pageYOffset > 2000 ){
 
-            tl.to('.first-book img', 2,
+            tl.to('.first-book img', 1,
+                {clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)" })
+              .to('.second-book img', 1,
                 {clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)" });
-
-         }if( window.pageXOffset > 2500){
-            tl.to('.second-book img', 2,
-                {clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)" });
-         }
-
-    }
+                
+            
+        }
+        
+    }       
 
 
 
@@ -66,25 +66,20 @@ const LowerMain = () =>{
                                 In his heart, service is for a lifetime
                             </p>
 
-                            
                             <div className="btn-container">
                                 <Link to="">
                                     Read More
                                 </Link>
                                 <span class="long-arrow-right"></span>
                             </div>
-
                         </div>
 
                         <div className="first-book img-book-container">
                             <img src={Book1}/>
                         </div>
-
                     </div>
 
-
                     <div className="lower-content section-two-col-grid">
-
                         <div className="second-book img-book-container overlap">
                             <img src={Book2}/>
                         </div>
@@ -118,9 +113,7 @@ const LowerMain = () =>{
 
                         </div>
                     </div>
-
                 </div>
-
             </secton>
          </div>
         </>

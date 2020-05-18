@@ -28,9 +28,11 @@ const BottomReact = ()=>{
                             />
                         </div>
 
-                        <div className="testimonial-container-head">
+                        <div className="testimonial-container-head"
+                             data-aos="fade-up"
+                             data-aos-duration="3000">
                             
-                        <span class="tagline-wr"><span></span><span className="cw-ft">Hal Davis</span></span>
+                            <span class="tagline-wr"><span></span><span className="cw-ft">Hal Davis</span></span>
                             <h1>
                                 <span>Testi</span>
                                 <span>monials.</span>

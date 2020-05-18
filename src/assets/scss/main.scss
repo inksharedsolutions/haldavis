@@ -327,3 +327,10 @@
     color: #fff;
 }
 
+.wrapper-author-image,
+.img-book-container,
+.second-book{
+    img{
+        clip-path: polygon(0 0, 100% 0% , 100% 0 , 0 0);
+    }
+}
