@@ -28,8 +28,120 @@
 }
 
 .heading-nav{
+
+    
     h1{
-        font-weight: bold;
-        font-size: 2.2em; 
+        font-weight: 900;
+        font-size: 1.8em;
+        color: #565656;
+        text-transform: uppercase;
+        letter-spacing: 12px;
     }
+}
+
+.nav-list{
+    position: fixed;
+    width: 100%;
+    background: #000e;
+    z-index: 22;
+    height: 100%;
+    right: 0;
+    top: 0;
+    display: block;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 0 18%;
+
+        p{
+            font-size: 2em;
+            border-bottom: 1px solid #424242;
+            margin-bottom: 39px;
+        }
+
+        li{
+
+            font-size: 3em;
+            text-transform: capitalize;
+            padding: 9px 0;
+            font-weight: 900;
+            text-transform: uppercase; 
+
+
+            &::nth-child(1){
+                a{
+                    .num-list{
+                        letter-spacing: 9px;
+                    }
+                }
+            }
+            
+            a{
+                color: #fff;
+
+                span{
+
+                }
+                           
+                .num-list{
+                    font-weight: 100;
+                    padding-right: 0.6em;
+                }
+            }
+        }
+    }
+}
+
+.logo{
+    width: 5%;
+    text-align: center;
+
+    img{
+        width: 66px;
+        text-align: center;
+        position: absolute;
+        top: 2px;
+    }
+}
+.non-active-nav{
+    position: absolute;
+    display: none;
+}
+
+.x-mark{
+    padding: 21px;
+    position: absolute;
+    right: 0;
+
+    .span-line-burger{
+
+        &:nth-child(1){
+            background: #ffffff;
+            height: 2px;
+            width: 35px;
+            display: block;
+            margin: 7px 0;
+            cursor: pointer;
+            transform: rotate(45deg);
+        }
+        &:nth-child(2){
+            background: #ffffff;
+            height: 2px;
+            width: 35px;
+            display: block;
+            margin: 7px 0;
+            cursor: pointer;
+            transform: rotate(-40deg);
+            position: relative;
+            top: -10px;
+        }
+    }
+}
+
+.f-num-list{
+    letter-spacing: 8px;
 }

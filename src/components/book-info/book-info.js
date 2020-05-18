@@ -6,7 +6,7 @@ const BookInfo = (props)=>{
     return(
         <>
             <div className="columns">
-                <div className="column">
+                <div className="column"> 
                     <div className="bookImgContainer">
                         <img alt="main-book" src={props.data.imgSrc} />
                     </div>
