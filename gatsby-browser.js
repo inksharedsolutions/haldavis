@@ -11,4 +11,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
-AOS.init();
+/* disable AOS disable*/
+AOS.init({
+    disable: function() {
+      var maxWidth = 950;
+      return window.innerWidth < maxWidth;
+    }
+});

@@ -9,13 +9,13 @@ $smallBreakpoints : 550;
 
 }
 
-
 @media only screen and (max-width: $largeBreakpoints){
 
 }
 
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 950px){
+    
     .mid-content,
     .author-section{
         grid-template-columns: auto !important;
@@ -29,6 +29,56 @@ $smallBreakpoints : 550;
     .wrapper-author-image{
         text-align: center;
     }
+
+    .lower-content,
+    .section-two-col-grid{
+        grid-template-columns: auto !important;
+    }
+
+    .mid-content{
+        padding: 3em 0 !important;
+    }
+
+    .contents{
+        text-align: center;
+        max-width: 700px;
+        margin-top: 4em;
+    }
+
+    .overlap{
+         transform: translateY(0px); 
+    }
+
+    .fb-num{
+        display: none;
+        transform: rotate(0deg) !important;
+    }
+
+    .right-span,
+    .left-span{
+        span{
+            transform: translate(0px, -65px) !important;
+        }
+    }
+
+    .content-wrapper-ft,
+    .testimonial-info{
+        order:2;
+    }
+
+    .img-book-container,
+    .testimonial-container-head{
+        order:1;
+        img{
+            width: 35% !important;
+        }
+    }
+
+    .testimonial-container-head{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
 }
 
 
