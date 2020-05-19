@@ -61,7 +61,7 @@ const Footer = ()=>{
 					</div>
 
 					<div className="columns">
-						<div className="column">
+						<div className="column footer-lower-info">
 							<span className="footer-copyright">
 
 								<span className="footer-year">{
