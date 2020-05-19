@@ -1,0 +1,45 @@
+
+/*Responsive Breakpoints*/
+
+$largeBreakpoints: 1250px;
+$mediumBreakpoints: 990px;
+$smallBreakpoints : 550;
+
+@media only screen and (max-width: 1405px) {
+
+}
+
+
+@media only screen and (max-width: $largeBreakpoints){
+
+}
+
+
+@media only screen and (max-width: 850px){
+    .mid-content,
+    .author-section{
+        grid-template-columns: auto !important;
+        justify-content: center;
+
+       .event-heading-action{
+            margin-bottom: 2em !important;
+        }
+    }
+
+    .wrapper-author-image{
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: $mediumBreakpoints ){
+
+
+}	
+
+
+@media only screen and (max-width:  $smallBreakpoints ){
+
+
+
+}

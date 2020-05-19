@@ -38,8 +38,6 @@ const Nav = ()=>{
 		)
     })
     
-
-    
     const onClickEvent = (e) =>{
         setToggled(!toggled);
 
@@ -48,7 +46,7 @@ const Nav = ()=>{
 
 
     return(
-        <>
+        <> 
             <nav className="navigation">
                 <div className="logo">
                     <img src={Logo}/>

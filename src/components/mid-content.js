@@ -8,7 +8,9 @@ const MidContent = ()=>{
             <section className="mid-content section-two-col-grid">
             
                     <div className="event-heading">
-                        <h1 data-aos="fade-right"
+                        <h1 
+                            className="event-heading-action"
+                            data-aos="fade-right"
                             data-aos-offset="300"
                             data-aos-easing="ease-in-sine">
                                 
