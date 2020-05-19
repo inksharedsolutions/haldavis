@@ -3,7 +3,7 @@
 
 $largeBreakpoints: 1250px;
 $mediumBreakpoints: 990px;
-$smallBreakpoints : 550;
+$smallBreakpoints : 550px;
 
 @media only screen and (max-width: 1405px) {
 
@@ -151,7 +151,11 @@ $smallBreakpoints : 550;
 
 
 @media only screen and (max-width: $mediumBreakpoints ){
-
+    .testimonial-container-head{
+        h1{
+            font-size: 4em !important;
+        }
+    }
 
 }	
 
