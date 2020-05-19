@@ -7,7 +7,6 @@ import { TweenMax, TimelineMax, Timeline, gsap } from "gsap";
 const Main = ()=>{
 
 
-
     useEffect(() => {
   
         window.addEventListener('scroll',  scrollHandler);
