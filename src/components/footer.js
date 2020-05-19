@@ -60,7 +60,7 @@ const Footer = ()=>{
 						</div>
 					</div>
 
-					<div className="columns">
+					<div className="columns lower-info-container">
 						<div className="column footer-lower-info">
 							<span className="footer-copyright">
 

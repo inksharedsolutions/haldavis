@@ -120,6 +120,33 @@ $smallBreakpoints : 550;
             text-align: center;
         }    
     }
+
+    .trademark-heading{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .grid-cont {
+        .linear-ft{
+            &::before{
+                width: 69%;
+            }
+        }
+    }
+
+    .bottom-heading-bn{
+        transform: translate(0px, 0px) !important;
+    }
+
+    .first-heading{
+        transform: translate(0px, 122px) !important;
+    }
+
+    .navlist-footer-column,
+    .lower-info-container{
+        width: 100%;
+        margin: 0 auto !important;
+    }
 }
 
 
