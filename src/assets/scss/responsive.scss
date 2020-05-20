@@ -175,6 +175,18 @@ $smallBreakpoints : 550px;
             letter-spacing: 0px !important;
         }
     }
+
+    .footer-nav-list{
+        li{
+            padding: 16px 25px;
+            text-transform: capitalize;
+            font-size: 14px;
+            letter-spacing: 1px;
+            background: #2f2f2f;
+            margin-bottom: 13px;
+            border-radius: 9px;
+        }
+    }
 }
 
 
