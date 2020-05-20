@@ -12,7 +12,7 @@ const UpperMain = ()=>{
                     <h1 data-aos="fade-up">
                         <span>&#10077;</span>
                         Come on you feather merchants, sucker up buttercup 
-                        <span>&#10078;</span>
+                        <span> &#10078;</span>
                     </h1>
                     <p data-aos="fade-up"
                        data-aos-duration="3500">
