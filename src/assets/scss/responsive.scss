@@ -215,12 +215,15 @@ $smallBreakpoints : 550px;
 
 @media only screen and (max-width:  $smallBreakpoints ){
 
+
+
     .f-num-list{
         letter-spacing: 3px;
     }
 
     .first-heading{
         top: 0vh !important;
+        transform: translateY(166px) !important;
     }
 
     .upper-main{
