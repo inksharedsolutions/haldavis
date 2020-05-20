@@ -36,7 +36,7 @@ $smallBreakpoints : 550px;
         padding: 3em 4em !important;
         .event-heading{
             p{
-                margin: 0 0em;
+                margin: 0 0em !important;
             }
         }
     }
@@ -132,7 +132,7 @@ $smallBreakpoints : 550px;
     .trademark-heading{
         #style_soc_medias{
             text-align: center;
-        }    
+        }
     }
 
     .trademark-heading{
@@ -205,6 +205,7 @@ $smallBreakpoints : 550px;
             }
         }
     }
+
     .logo{
         transform: translateY(-26px);
         img{
@@ -222,4 +223,5 @@ $smallBreakpoints : 550px;
             animation-iteration-count: initial !important;
         }
     }
+         
 }

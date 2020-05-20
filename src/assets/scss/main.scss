@@ -115,11 +115,12 @@
         
        
         &:after{
-            content:'';
-            display: block;
-            border-bottom: 1px solid #f3f1f1;
-            padding: 10px;
-        }   
+            display: none;
+        }
+        
+        p{
+            margin-top: 13px;
+        }
     }
 }
 

@@ -31,13 +31,17 @@ const MidContent = ()=>{
                         <div className="event-ft" data-aos="fade-up" >
                             <span>01</span>
                             <h5>Book Conference in Javit Center NYC</h5>
-                            <p>July 25-26, 2020</p>
+                            <p>
+                                <p>July 25-26, 2020</p>
+                            </p>
                         </div>
 
                         <div className="event-ft"  data-aos="fade-up">
                             <span>02</span>
                             <h5>Frankfurt International Book Fair</h5>
-                            <p>July 25-26, 2020</p>
+                            <p>
+                                <p>July 25-26, 2020</p>
+                            </p>
                         </div>
                     </div> 
             
