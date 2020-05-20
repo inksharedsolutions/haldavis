@@ -221,10 +221,14 @@ $smallBreakpoints : 550px;
         letter-spacing: 3px;
     }
 
-    .first-heading{
-        top: 0vh !important;
-        transform: translateY(166px) !important;
+    .heading-banner{
+        top: 47vh !important;
     }
+
+    // .first-heading{
+    //     top: 0vh !important;
+    //     transform: translateY(166px) !important;
+    // }
 
     .upper-main{
          p{
@@ -249,9 +253,9 @@ $smallBreakpoints : 550px;
         }
     }
 
-    .banner-wrapper{
-        height: 76vh !important;
-    }
+    // .banner-wrapper{
+    //     height: 76vh !important;
+    // }
 
     .img-wrapper {
         img{
