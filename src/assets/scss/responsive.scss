@@ -36,7 +36,7 @@ $smallBreakpoints : 550px;
     }
 
     .mid-content{
-        padding: 3em 0 !important;
+        padding: 3em 4em !important;
     }
 
     .contents{
@@ -71,6 +71,14 @@ $smallBreakpoints : 550px;
         order:1;
         img{
             width: 35% !important;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
+        }
+    }
+
+
+    .wrapper-author-image{
+        img{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
         }
     }
 
@@ -85,6 +93,10 @@ $smallBreakpoints : 550px;
 
     [data-aos=fade-up] {
         transform: translate3d(0,0px,0) !important;
+    }
+
+    [data-aos=fade-right]{
+        transform: translate3d(0px,0,0) !important;
     }
 
     .ellipse{
@@ -146,6 +158,14 @@ $smallBreakpoints : 550px;
     .lower-info-container{
         width: 100%;
         margin: 0 auto !important;
+    }
+
+    .upper-main{
+        p{
+            &::before{
+                display: none;
+            }
+        }
     }
 }
 
