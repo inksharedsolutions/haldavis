@@ -9,9 +9,13 @@
     align-items: baseline;
     padding: 1em 0;
     border-bottom: 1px solid #eee;
+    align-items: center;
 }
 
 .burger-nav{
+
+    background: #e2f5f2;
+    padding: 11px;
 
     &:hover{
         cursor: pointer;
