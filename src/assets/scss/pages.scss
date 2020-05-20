@@ -47,8 +47,6 @@ $prm-font-size : 12px;
 }
 
 .heading-quote{
-
-	padding: 0 59px;
     margin-top: 85px;
 
 	h4{
@@ -113,7 +111,7 @@ $prm-font-size : 12px;
 
 	img{
 		max-width: 100%;
-	    width: 69%;
+        width: 60%;
 	    padding: 0px;
 	    border: 29px solid #fff;
         margin:0;
@@ -164,7 +162,6 @@ $prm-font-size : 12px;
      
     a{
         text-decoration: none;
-        background: #f8a732;
         padding: 4px 15px;
         color: #fff;
         font-size: 13px;
@@ -190,6 +187,26 @@ $prm-font-size : 12px;
         font-size: 13px;
         letter-spacing: 1px;
         margin-bottom: 13px;
+    }
+}
+
+.contentBook{
+    h1{
+       text-align: left;
+       font-size: 3rem;
+       font-weight:700;
+       color: #000;
+
+    }
+    span{
+        font-weight: bold;
+        color: #383838ee;
+        margin: 0.5em 0;
+        display: block;
+    }
+
+    p{
+        margin-top: 3em;   
     }
 }
        

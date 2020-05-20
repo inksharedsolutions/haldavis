@@ -29,6 +29,8 @@ const ATB = (props)=>{
                     
                     <BookInfo  
                         data={{
+                            title:`From An Outhouse to the White House`,
+                            spanTitle: 'And Then Some',
                             imgSrc: Book2,
                             content:
                             `With over five decades of service to his country,
@@ -59,6 +61,8 @@ const ATB = (props)=>{
 
                     <BookInfo  
                         data={{
+                            title:`Beyond The Mountains And Across The Seas`,
+                            spanTitle: 'Over 50 years of Romanticizing Travel',
                             imgSrc: Book1,
                             content:
                             `With over five decades of service to his country,

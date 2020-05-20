@@ -13,6 +13,11 @@ $smallBreakpoints : 550px;
 
 @media only screen and (max-width: $mediumBreakpoints){
     
+    .heading-quote{
+        margin-top: 0 !important;
+        margin-bottom: 3em;
+    }
+
     .mid-content,
     .author-section{
         grid-template-columns: auto !important;
@@ -72,7 +77,7 @@ $smallBreakpoints : 550px;
     .testimonial-container-head{
         order:1;
         img{
-            width: 35% !important;
+            width: 70% !important;
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
         }
     }
@@ -193,11 +198,16 @@ $smallBreakpoints : 550px;
             border-radius: 2px !important;
         }
     }
+    
 }
 
 
 
 @media only screen and (max-width:  $smallBreakpoints ){
+
+    .first-heading{
+        top: 0vh !important;
+    }
 
     .upper-main{
          p{
@@ -242,6 +252,15 @@ $smallBreakpoints : 550px;
             p{
                 margin-top: 30px;
             }
+        }
+    }
+
+    .booklinkBlocks{
+        li{
+            display: block !important;
+            background: #b29e46;
+            margin-bottom: 1em;
+            padding: 1em 2em !important;
         }
     }
          
