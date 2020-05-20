@@ -33,7 +33,7 @@ $smallBreakpoints : 550px;
     }
 
     .mid-content{
-        padding: 3em 4em !important;
+        padding: 3em 1.7em !important;
         .event-heading{
             p{
                 margin: 0 0em !important;
@@ -119,7 +119,7 @@ $smallBreakpoints : 550px;
 
     .lower-nav-footer{
         &::before{
-            display: none !important; 
+            display: none !important;
         }
     }
 
@@ -187,11 +187,23 @@ $smallBreakpoints : 550px;
             border-radius: 9px;
         }
     }
+
+    .footer-nav-list{
+        li{
+            border-radius: 2px !important;
+        }
+    }
 }
 
 
 
 @media only screen and (max-width:  $smallBreakpoints ){
+
+    .upper-main{
+         p{
+            max-width: 300px;
+         }
+    }
     .testimonial-container-head{
         h1{
             font-size: 4em !important;
@@ -221,6 +233,14 @@ $smallBreakpoints : 550px;
     .img-wrapper {
         img{
             animation-iteration-count: initial !important;
+        }
+    }
+
+    .event-ft {
+        p{
+            p{
+                margin-top: 30px;
+            }
         }
     }
          
