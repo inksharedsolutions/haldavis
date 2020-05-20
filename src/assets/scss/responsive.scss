@@ -198,6 +198,15 @@ $smallBreakpoints : 550px;
             border-radius: 2px !important;
         }
     }
+
+    .nav-list{
+        ul{
+            padding: 0 4% !important;
+            li{
+                font-size: 1.6em !important;
+            }
+        }
+    }
     
 }
 
@@ -217,15 +226,6 @@ $smallBreakpoints : 550px;
     .testimonial-container-head{
         h1{
             font-size: 4em !important;
-        }
-    }
-
-    .nav-list{
-        ul{
-            padding: 0 10%;
-            li{
-                font-size: 1.6em !important;
-            }
         }
     }
 
@@ -261,6 +261,12 @@ $smallBreakpoints : 550px;
             background: #b29e46;
             margin-bottom: 1em;
             padding: 1em 2em !important;
+        }
+    }
+
+    .contentBook {
+        h1{
+            font-size: 2rem !important;
         }
     }
          
