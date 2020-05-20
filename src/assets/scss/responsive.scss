@@ -5,16 +5,13 @@ $largeBreakpoints: 1250px;
 $mediumBreakpoints: 990px;
 $smallBreakpoints : 550px;
 
-@media only screen and (max-width: 1405px) {
-
-}
 
 @media only screen and (max-width: $largeBreakpoints){
 
 }
 
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: $mediumBreakpoints){
     
     .mid-content,
     .author-section{
@@ -37,6 +34,11 @@ $smallBreakpoints : 550px;
 
     .mid-content{
         padding: 3em 4em !important;
+        .event-heading{
+            p{
+                margin: 0 0em;
+            }
+        }
     }
 
     .contents{
@@ -75,10 +77,10 @@ $smallBreakpoints : 550px;
         }
     }
 
-
     .wrapper-author-image{
         img{
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
+            width: 65% !important;
         }
     }
 
@@ -141,7 +143,7 @@ $smallBreakpoints : 550px;
     .grid-cont {
         .linear-ft{
             &::before{
-                width: 69%;
+                width: 61% !important;
             }
         }
     }
@@ -176,7 +178,8 @@ $smallBreakpoints : 550px;
 }
 
 
-@media only screen and (max-width: $mediumBreakpoints ){
+
+@media only screen and (max-width:  $smallBreakpoints ){
     .testimonial-container-head{
         h1{
             font-size: 4em !important;
@@ -190,11 +193,21 @@ $smallBreakpoints : 550px;
             }
         }
     }
-}	
+    .logo{
+        transform: translateY(-26px);
+        img{
+            width: 36px !important;
+            top: 20px; 
+        }
+    }
 
+    .banner-wrapper{
+        height: 76vh !important;
+    }
 
-@media only screen and (max-width:  $smallBreakpoints ){
-
-
-
+    .img-wrapper {
+        img{
+            animation-iteration-count: initial !important;
+        }
+    }
 }
