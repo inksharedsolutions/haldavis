@@ -4,18 +4,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: #eee;
+    background-image: url('../../../static/img/banner_non_front.jpg');
 
     span{
         letter-spacing: 1.1em;
         text-transform: uppercase;
         line-height: 2;
+        color: #eee;
     }
 
     h1{
         font-size: 4em;
         font-weight: 900;
         text-transform: uppercase;
+        color: #fff;
     }
 }
 
@@ -50,11 +52,10 @@ $prm-font-size : 12px;
     margin-top: 85px;
 
 	h4{
-	    // font-weight: 100;
-	    line-height: 1.7;
-	    font-size: 20px;
-	    font-style: italic;
-	    margin-top: 49px !important;
+        line-height: 1.7;
+        font-size: 29px;
+        font-style: italic;
+        margin-top: 49px !important;
 	}
 }
 
@@ -77,18 +78,19 @@ $prm-font-size : 12px;
 
 .article-section{
 	p{
-        font-size: 15px;
+        font-size: 25px;
         line-height: 2.2;
         color: #000000;
-        font-weight: 500;
         margin-bottom: 1em;
 	}
 }
 
 .author-name{
     position: absolute;
-    font-size: 26px;
+    font-size: 3rem;
     margin: 0 16px;
+    font-weight: bold;
+    transform: translateY(40px);
 
     .author-span-ft{
 	    display: block;
@@ -233,7 +235,7 @@ $prm-font-size : 12px;
 .abtiaryButton{
     padding: 13px 74px;
     border: none;
-    background: #f15454f0;
+    background: #40c78ff0;
     color: #fff;
     text-transform: uppercase;
     margin-top: 39px;
@@ -359,7 +361,7 @@ $prm-font-size : 12px;
             content: '';
             width: 101px;
             height: 2px;
-            background-color: #ff7a7a;
+            background-color: #53dbec;
             display: block;
             margin: 11px 0;
         }

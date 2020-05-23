@@ -4,17 +4,15 @@ import Logo from '../../static/img/logo.png'
 
 const Nav = ()=>{
 
-
-
     const refSpan  = useRef();
 	const [toggled, setToggled] = useState(false);
 
 	const pages = [
 		 'home',
-		 'about-the-author', 
-		 'about-the-book', 
+		 'about-the-author',
+		 'about-the-book',
 		 'contact'
-	]	
+	]
 
 	let Listed = pages.map((e, i) =>{
  		
@@ -26,13 +24,15 @@ const Nav = ()=>{
 			<li>
 				<Link 
 					to={filterUrl}>
+
 					 <span className={`${fNum} num-list`}>
                          {`0${i+1}.`}
-                    </span>    
+                    </span>
 
                      <span className="list-name">
                          {e.replace(/[ /-]/g," ").trim().toLowerCase()}
                     </span>
+
 				</Link>	
 			</li>
 		)
@@ -40,16 +40,17 @@ const Nav = ()=>{
     
     const onClickEvent = (e) =>{
         setToggled(!toggled);
-
-        console.log(toggled);
     }   
 
 
     return(
         <> 
             <nav className="navigation">
+
                 <div className="logo">
-                    <img src={Logo}/>
+                     <Link to="/">
+                        <img src={Logo}/>
+                     </Link>
                 </div> 
                  
                 <span className="heading-nav">

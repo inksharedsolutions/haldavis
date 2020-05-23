@@ -18,6 +18,16 @@ $smallBreakpoints : 550px;
         margin-bottom: 3em;
     }
 
+    .author-image-container{
+        img{
+            width: 100% !important;
+        }
+    }
+
+    .author-name{
+        position: static !important;
+    }
+
     .mid-content,
     .author-section{
         grid-template-columns: auto !important;
@@ -208,13 +218,12 @@ $smallBreakpoints : 550px;
             }
         }
     }
-    
+     
 }
 
 
 
 @media only screen and (max-width:  $smallBreakpoints ){
-
 
 
     .f-num-list{

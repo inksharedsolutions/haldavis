@@ -17,16 +17,19 @@ const BookInfo = (props)=>{
 
                         <h1>{props.data.title}</h1>
                         <span>{props.data.spanTitle}</span>
+
                         <p>
                             {props.data.content}
                         </p>
+
                     </section>
 
                     <section className="fullSection">
+                        
                         <nav className="booklinkBlocks">
                             <span>Ebooks :</span>
                             <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.amazon}>Amazon</a></li>
-                            <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.sratton}>Stratton Press</a></li>
+                            <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.stratton}>Stratton Press</a></li>
                             <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.barnes}>Barnes & Noble</a></li>
                         </nav>
 
@@ -36,6 +39,7 @@ const BookInfo = (props)=>{
                             <li><a rel="noopener noreferrer" target="_blank" href={props.data.paperback.barnes}>Barnes & Noble </a></li>
                             <li><a rel="noopener noreferrer" target="_blank" href={props.data.paperback.booksamillion}>Books A Million</a></li>
                         </nav>
+
                     </section>
                 </div>	
             </div>

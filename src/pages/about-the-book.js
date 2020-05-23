@@ -33,18 +33,17 @@ const ATB = (props)=>{
                             spanTitle: 'And Then Some',
                             imgSrc: Book2,
                             content:
-                            `With over five decades of service to his country,
-                            Hal is certainly not a man to be easily detoured or dissuaded from his mission.
-                            This book is a real testament of how long-suffering, perseverance, loyalty,
-                            integrity, and patriotism. Hal's wit and humor which he never outgrew even until today,
-                            allowed him to associate with highly recognized and well-established people. 
-                            His life really began after he was kicked out by his father.
-                            
-                            He had a bitter childhood that continued well into his teens,
-                            but everything changed after he became a member of the United States Marine Corps.
+                            `With over five decades of service to his country, Hal is certainly not a man 
+                            to be easily detoured or dissuaded from his mission. This book is a real testament 
+                            of how long-suffering, perseverance, loyalty, integrity, and patriotism.
+                            Hal’s wit and humor which he never outgrew even until today, allowed him
+                            to associate with highly recognized and well-established people.
+                            His life really began after he was kicked out by his father. 
+                            He had a bitter childhood that continued well into his teens, but 
+                            everything changed after he became a member of the United States Marine Corps.
                             His success was not given to him on a silver platter, it was definitely a roller-coaster adventure. 
-                            He lived, he laughed, he cried, he loved, he fell, and he rose yet again.
-                            From an Outhouse to the White House, and Then Some, will show you just how he did it.`,
+                            He lived, he laughed, he cried, he loved, he fell, and he rose yet again. From an Outhouse to the White House,
+                            and Then Some, will show you just how he did it.`,
 
                             ebooks:{
                                 stratton : 'https://www.stratton-press.com/books/from-an-out-house-to-the-white-house-and-then-some/',
@@ -65,18 +64,17 @@ const ATB = (props)=>{
                             spanTitle: 'Over 50 years of Romanticizing Travel',
                             imgSrc: Book1,
                             content:
-                            `With over five decades of service to his country,
-                            Hal is certainly not a man to be easily detoured or dissuaded from his mission.
-                            This book is a real testament of how long-suffering, perseverance, loyalty,
-                            integrity, and patriotism. Hal's wit and humor which he never outgrew even until today,
-                            allowed him to associate with highly recognized and well-established people. 
-                            His life really began after he was kicked out by his father.
+                            `Hal Davis is a distinguished US Marine (Ret.) with a career that spanned twenty-two years.
+                            In his heart, service is for a lifetime. He grew up in Knoxville Tennessee, 
+                            and life back then was never easy. Deprived of all the good things that a childhood
+                            normally brings, he remained steadfast in reaching his goals. He became a Tennessee State Trooper,
+                            FBI Special Investigator, United States Secret Service Agent to two US presidents (Nixon and Ford),
+                            and a Marine and Naval Criminal Investigator.
                             
-                            He had a bitter childhood that continued well into his teens,
-                            but everything changed after he became a member of the United States Marine Corps.
-                            His success was not given to him on a silver platter, it was definitely a roller-coaster adventure. 
-                            He lived, he laughed, he cried, he loved, he fell, and he rose yet again.
-                            From an Outhouse to the White House, and Then Some, will show you just how he did it.`,
+                            Hal is currently serving as a Knox County Sheriff’s Deputy. He had a fulfilling fifty-threeyear career,
+                            but more than that, Hal is a loving husband to Susan and a father-hero figure to Allison, 
+                            who’s now their guardian angel in heaven. He is also the author of From an Outhouse to the
+                            White House, and Then Some.`,
 
                             ebooks:{
                                 stratton : 'https://www.stratton-press.com/books/beyond-the-mountains-and-across-the-seas-over-50-years-of-romanticizing-travel/',

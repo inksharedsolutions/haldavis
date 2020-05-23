@@ -23,7 +23,7 @@ const Footer = ()=>{
 			<li>
 				<Link 
 					to={filterUrl}>
-					{e}
+					{(e).replace(/[-/]/g," ").trim().toLowerCase()}
 				</Link>
 			</li>
 		)
@@ -46,7 +46,7 @@ const Footer = ()=>{
 							</div>
 						
 							<p>
-								Gardiner Noble loves to hear from readers. You can reach him via email. 
+								Hal Davis loves to hear from readers. You can reach him via email. 
 								Feel free to send questions about writing, his works, interviews 
 								and other publicity matters.
 							</p>
@@ -110,7 +110,6 @@ const Footer = ()=>{
 								</a>
 
 								<a 
-
 									href="https://www.instagram.com/strattonpress/"
 									target="_blank"
 									rel="noopener noreferrer">
