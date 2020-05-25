@@ -7,7 +7,7 @@ const UpperMain = ()=>{
             <section className="upper-main">
                 <div className="content-container">
                     <span className="author-tagname">
-                        Andrew Sparks
+                        Hal Davis
                     </span> 
                     <h1 data-aos="fade-up">
                         <span>&#10077;</span>
