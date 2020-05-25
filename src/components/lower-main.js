@@ -67,7 +67,7 @@ const LowerMain = () =>{
                             </p>
 
                             <div className="btn-container">
-                                <Link to="">
+                                <Link to="/about-the-book">
                                     Read More
                                 </Link>
                                 <span class="long-arrow-right"></span>
