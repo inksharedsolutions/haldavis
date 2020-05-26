@@ -8,22 +8,23 @@ const Footer = ()=>{
 
 
     const pages = [
-		'home',
-		'about-the-author', 
-		'about-the-book', 
-		'contact'
+		'Home',
+		'About-the-Author', 
+		'About-the-Book', 
+		'Contact'
    ]
    
 	let Listed = pages.map((e) =>{
  		
 		var newUrl = ((e).replace(/[ /]/g,"-").trim().toLowerCase());
 		let filterUrl = (newUrl === 'home') ? '/' : newUrl;
+		const nwList = e.replace(/[/-]/g," ").trim();
 
 		return (
 			<li>
 				<Link 
 					to={filterUrl}>
-					{(e).replace(/[-/]/g," ").trim().toLowerCase()}
+					{nwList}
 				</Link>
 			</li>
 		)
@@ -90,7 +91,7 @@ const Footer = ()=>{
 							<nav id="style_soc_medias">
 
 								<a
-									href="https://www.facebook.com/Valentine-Cardinale-524247524709624/"
+									href="https://www.facebook.com/SPPI.Official"
 									target="_blank"
 									rel="noopener noreferrer" >
 
@@ -120,7 +121,7 @@ const Footer = ()=>{
 								</a>
 
 								<a 
-									href="https://www.goodreads.com/book/show/45784456-the-west-side-kid"
+									href="https://www.goodreads.com/book/show/53218906-from-an-out-house-to-the-white-house?from_search=true&from_srp=true&qid=1zHoyFUymt&rank=1"
 									target="_blank"
 									rel="noopener noreferrer">
 

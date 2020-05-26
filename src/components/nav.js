@@ -8,17 +8,18 @@ const Nav = ()=>{
 	const [toggled, setToggled] = useState(false);
 
 	const pages = [
-		 'home',
-		 'about-the-author',
-		 'about-the-book',
-		 'contact'
+		 'Home',
+		 'About-the-Author',
+		 'About-the-Book',
+		 'Contact'
 	]
 
 	let Listed = pages.map((e, i) =>{
  		
 		var newUrl = ((e).replace(/[ /]/g,"-").trim().toLowerCase());
-        let filterUrl = (newUrl === 'home') ? '/' : newUrl;
-        let fNum =  i==0? 'f-num-list' : '';
+        const filterUrl = (newUrl === 'home') ? '/' : newUrl;
+        const fNum =  i==0? 'f-num-list' : '';
+        const nwList = e.replace(/[/-]/g," ").trim();
 
 		return (
 			<li>
@@ -29,8 +30,8 @@ const Nav = ()=>{
                          {`0${i+1}.`}
                     </span>
 
-                     <span className="list-name">
-                         {e.replace(/[ /-]/g," ").trim().toLowerCase()}
+                     <span className="list-name"> 
+                         {nwList}
                     </span>
 
 				</Link>	
