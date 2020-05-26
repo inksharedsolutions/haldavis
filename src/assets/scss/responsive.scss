@@ -218,6 +218,15 @@ $smallBreakpoints : 550px;
             }
         }
     }
+
+    .grid-images-author {
+        grid-template-columns: auto !important;
+
+        .author-img{
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
      
 }
 
