@@ -39,11 +39,20 @@ const ATA  = ()=>{
                             <article className="article-section">
 
                                 <p>
-                                    Gardiner Noble is a retired electrical engineer who spent forty years in the automobile.
-                                    He is the inventor of the coil-on-plug ignition system, which is used in most cars manufactured
-                                    around the world. He has written several books: One, Silken Thomas Fitzgerald 
-                                    (Henry the Eighth's Irish Thorn), Beliefs, and The Gleeful Banker. 
-                                    He is in the process of writing a serious book that explains why the human body ages.
+                                    Hal Davis is a distinguished US Marine (Ret.) with a career that spanned
+                                    twenty-two years. In his heart, service is for a lifetime. 
+                                    He grew up in Knoxville Tennessee, and life back then was never easy.
+                                    Deprived of all the good things that a childhood normally brings, 
+                                    he remained steadfast in reaching his goals. He became a Tennessee State Trooper, 
+                                    FBI Special Investigator, United States Secret Service Agent to two US presidents 
+                                    (Nixon and Ford), and a Marine and Naval Criminal Investigator.
+                                </p>
+
+                                <p>
+                                    Hal is currently serving as a Knox County Sheriff’s Deputy.
+                                    He had a fulfilling fifty-three-year career, but more than that,
+                                    Hal is a loving husband to Susan and a father-hero figure to Allison,
+                                    who’s now their guardian angel in heaven.
                                 </p>
                             
                             </article>
