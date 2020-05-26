@@ -22,7 +22,7 @@ const MidContent = ()=>{
                             <h1>Events</h1>
                             <p>
                                 He had done so much and traveled so 
-                                much in his life before he met me
+                                much in his life before he met met
                             </p>
                         </h1>
                     </div>
@@ -32,7 +32,7 @@ const MidContent = ()=>{
                             <span>01</span>
                             <h5>Book Conference in Javit Center NYC</h5>
                             <p>
-                                <p>July 25-26, 2020</p>
+                                <p>(To Be Announced)</p>
                             </p>
                         </div>
 
@@ -40,7 +40,7 @@ const MidContent = ()=>{
                             <span>02</span>
                             <h5>Frankfurt International Book Fair</h5>
                             <p>
-                                <p>July 25-26, 2020</p>
+                                <p>(To Be Announced)</p>
                             </p>
                         </div>
                     </div> 

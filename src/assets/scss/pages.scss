@@ -134,7 +134,7 @@ $prm-font-size : 12px;
     p{
     	margin-bottom: 14px;
     	line-height: 2;
-    	font-size: 15px !important;
+    	// font-size: 15px !important;
     }
 }
 
@@ -401,4 +401,15 @@ $prm-font-size : 12px;
 
 #thread__wrapper{
     padding: 33px;
+}
+
+.grid-images-author{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 3em;
+
+    .author-img{
+        border: 1em solid #e8e8e8;
+    }
 }

@@ -38,11 +38,7 @@
     }
 }
 
-.first-heading{
-    span{
-        font-weight: 500;
-    }
-}
+
 
 .span-italice{
     padding: 0 5px;
@@ -51,12 +47,16 @@
 
 .first-heading{
     position: absolute;
-    transform: translate(-209px, 165px);
+    transform: translate(-209px, 23vh);
     top: 8vh;
     font-size: 2em;
     background: #28C9BD;
     padding: 14px;
     color: #fff;
+
+     span{
+        font-weight: 500;
+    }
 }
 
 .heading-banner{

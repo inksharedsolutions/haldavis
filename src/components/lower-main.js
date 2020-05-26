@@ -62,8 +62,8 @@ const LowerMain = () =>{
                             </h1>
 
                             <p>
-                                Hal Davis is a distinguished US Marine (Ret.) with a career that spanned twenty-two years.
-                                In his heart, service is for a lifetime
+                              To put one's travel life into proper perspective can be like teetering on the edge of history. 
+                              To have lived it, I was totally ensconced in parts of the events that became monumental worldwide.
                             </p>
 
                             <div className="btn-container">

@@ -33,17 +33,17 @@ const ATB = (props)=>{
                             spanTitle: 'And Then Some',
                             imgSrc: Book2,
                             content:
-                            `With over five decades of service to his country, Hal is certainly not a man 
-                            to be easily detoured or dissuaded from his mission. This book is a real testament 
-                            of how long-suffering, perseverance, loyalty, integrity, and patriotism.
-                            Hal’s wit and humor which he never outgrew even until today, allowed him
-                            to associate with highly recognized and well-established people.
-                            His life really began after he was kicked out by his father. 
-                            He had a bitter childhood that continued well into his teens, but 
-                            everything changed after he became a member of the United States Marine Corps.
-                            His success was not given to him on a silver platter, it was definitely a roller-coaster adventure. 
-                            He lived, he laughed, he cried, he loved, he fell, and he rose yet again. From an Outhouse to the White House,
-                            and Then Some, will show you just how he did it.`,
+                            `With over five decades of service to his country, 
+                            Hal is certainly not a man to be easily detoured or dissuaded from his mission. 
+                            This book is a real testament of how long-suffering, perseverance, loyalty, 
+                            integrity, and patriotism. Hal's wit and humor which he never outgrew even until 
+                            today, allowed him to associate with highly recognized and well-established people. 
+                            His life really began after he was kicked out by his father. He had a bitter 
+                            childhood that continued well into his teens, but everything changed after he
+                            became a member of the United States Marine Corps. His success was not given
+                            to him on a silver platter, it was definitely a roller-coaster adventure. I lived,
+                            I laughed, I cried, I loved, I fell, and I rose yet again. From an Outhouse to the
+                            White House, and Then Some, will show you just how he did it.`,
 
                             ebooks:{
                                 stratton : 'https://www.stratton-press.com/books/from-an-out-house-to-the-white-house-and-then-some/',
