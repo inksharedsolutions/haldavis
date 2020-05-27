@@ -50,7 +50,7 @@ const Banner = ()=>{
 
                     <h6 className="first-heading">
                         <span>From</span>
-                        <span className="span-italice"> The </span>
+                        <span className="span-italice"> An </span>
                         <span>Outhouse</span>
                     </h6>
 
