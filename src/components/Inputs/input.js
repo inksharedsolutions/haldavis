@@ -1,6 +1,6 @@
 import React from 'react'
 
- 
+
 const inputs = (props)=> {
 
  	const initName =  props.name;
