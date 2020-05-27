@@ -91,7 +91,7 @@ const Footer = ()=>{
 							<nav id="style_soc_medias">
 
 								<a
-									href="https://www.facebook.com/SPPI.Official"
+									href="https://www.facebook.com/Hal-Davis-109176304148408/"
 									target="_blank"
 									rel="noopener noreferrer" >
 
