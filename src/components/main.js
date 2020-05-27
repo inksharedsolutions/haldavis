@@ -41,7 +41,7 @@ const Main = ()=>{
                             <p>
                                 Hal Davis is a distinguished US Marine(Ret.) 
                                 with a career that spanned twenty-two years.
-                                In his heart, services for a lifetime.
+                                In his heart, service is for a lifetime.
                             </p>
                             <span className="authorName">Hal Davis</span>
                             <span className="authorTag">Author & Writer</span>
