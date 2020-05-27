@@ -279,6 +279,25 @@ $smallBreakpoints : 550px;
          }
     }
 
+    .ellipse{
+        position: absolute;
+        height: 300px !important;
+        width: 300px !important;
+        border-radius: 50%;
+        z-index: -2;
+        border: 7px solid #26b6db;
+        .ellipse-inner{
+            position: absolute;
+            height: 250px !important;
+            width: 250px !important;
+            border-radius: 50%;
+            z-index: -2;
+            top: 6% !important;
+            left: 6% !important;
+            background: #26b6db36;
+        }
+    }
+
     .testimonial-container-head{
 
         padding: 2em 0.5em !important;
