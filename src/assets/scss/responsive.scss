@@ -18,6 +18,8 @@ $smallBreakpoints : 550px;
         margin-bottom: 3em;
     }
 
+ 
+
     .author-image-container{
         img{
             width: 100% !important;
@@ -26,8 +28,9 @@ $smallBreakpoints : 550px;
 
     .author-name{
         position: static !important;
-        display: block;
-    }
+        display: block !important;
+        margin: 0 0px !important;
+    } 
 
     .mid-content,
     .author-section{
