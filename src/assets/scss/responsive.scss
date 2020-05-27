@@ -193,7 +193,7 @@ $smallBreakpoints : 550px;
     }
 
     .first-heading{
-        transform: translate(0px, 122px) !important;
+        transform: translateY(28vh)!important;
     }
 
     .navlist-footer-column,
@@ -267,7 +267,8 @@ $smallBreakpoints : 550px;
     }
 
     .heading-banner{
-        top: 44vh !important;
+        top: 52vh !important;
+        font-size: 10.5vw !important;
     }
 
     .upper-main{
