@@ -18,7 +18,7 @@ $smallBreakpoints : 550px;
     .second-book,
     .wrapper-author-image{
         &:before{
-            display: none;
+            display: none !important;
         }
     }
 
