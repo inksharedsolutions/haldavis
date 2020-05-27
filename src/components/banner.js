@@ -1,5 +1,5 @@
 import React, {useRef, useEffect} from 'react'
-import Mountain from '../../static/img/mountain_ft.png'
+import Soldier from '../../static/img/soldier.png'
 import Parallax from 'parallax-js'
 
 const Banner = ()=>{
@@ -44,13 +44,14 @@ const Banner = ()=>{
                     <div className="img-wrapper" id="scene"> 
                         <img  
                             alt="mountain" 
-                            src={Mountain} 
+                            src={Soldier} 
                         />
                     </div> 
 
                     <h6 className="first-heading">
-                        <span>Beyond</span>
-                        <span className="span-italice">The</span>
+                        <span>From</span>
+                        <span className="span-italice"> The </span>
+                        <span>Outhouse</span>
                     </h6>
 
                     <div id="scene" 
@@ -59,15 +60,15 @@ const Banner = ()=>{
 
                         <h1 data-depth="0.2"
                             className="heading-banner">
-                            Mountains
+                            semper  fidelis
                         </h1>
                     </div>
+    
 
                     <h6 className="bottom-heading-bn">
-                        <span className="span-italice">And</span> 
-                        <span>Across</span>
-                        <span className="span-italice">The</span> 
-                        <span>Seas</span>
+                        <span className="span-italice">to the</span> 
+                        <span>White</span>
+                        <span>House</span>
                     </h6>
 
                     <div className="ellipse">
