@@ -338,6 +338,55 @@
     }
 }
 
+.wrapper-author-image{
+    &:before{
+        content: '';
+        display: inline-block;
+        opacity: 1;
+        transition: .2s opacity;
+        vertical-align: t;
+        background: #f3f8fc url(https://www.wbir.com/assets/shared-images/backgrounds/diag-5x5-blue-2x.png) left top repeat;
+        background-size: 6px 5px;
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        transform: translate(-54px, -30px);
+    }
+}
+
+.first-book{
+    &:before{
+        content: '';
+        display: inline-block;
+        opacity: 1;
+        transition: .2s opacity;
+        vertical-align: t;
+        background: #f3f8fc url(https://www.wbir.com/assets/shared-images/backgrounds/diag-5x5-blue-2x.png) left top repeat;
+        background-size: 6px 5px;
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        transform: translate(12px, -34px);
+    }
+}
+
+.second-book{
+    &:before{
+        content: '';
+        display: inline-block;
+        opacity: 1;
+        transition: .2s opacity;
+        vertical-align: t;
+        background: #f3f8fc url(https://www.wbir.com/assets/shared-images/backgrounds/diag-5x5-blue-2x.png) left top repeat;
+        background-size: 6px 5px;
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        transform: translate(-108px, -34px);
+
+    }
+}
+
 
 .arrow-ft-r{
     margin-left: 47px;

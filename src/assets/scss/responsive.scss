@@ -12,6 +12,16 @@ $smallBreakpoints : 550px;
 
 
 @media only screen and (max-width: $mediumBreakpoints){
+
+
+    .first-book,
+    .second-book,
+    .wrapper-author-image{
+        &:before{
+            display: none;
+        }
+    }
+
     .banner-wrapper{
         height: 90vh !important;
     }
@@ -54,9 +64,6 @@ $smallBreakpoints : 550px;
         }
     }
 
-    .wrapper-author-image{
-        text-align: center;
-    }
 
     .lower-content,
     .section-two-col-grid{
@@ -109,6 +116,7 @@ $smallBreakpoints : 550px;
     }
 
     .wrapper-author-image{
+        text-align: center;
         img{
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
             width: 65% !important;
@@ -275,6 +283,7 @@ $smallBreakpoints : 550px;
          p{
             max-width: 300px !important;
          }
+         
          span{
              display: block !important;
          }
