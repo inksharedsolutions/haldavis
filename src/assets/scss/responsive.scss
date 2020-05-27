@@ -154,15 +154,19 @@ $smallBreakpoints : 550px;
     }
 
     .trademark-heading{
+
+        max-width: 400px;
+        margin: 0 auto;
+
         #style_soc_medias{
             text-align: center;
             margin-top: 3em;
         }
-    }
 
-    .trademark-heading{
-        max-width: 400px;
-        margin: 0 auto;
+        p{
+           margin: 3em 0;
+        }
+
     }
 
     .grid-cont {
