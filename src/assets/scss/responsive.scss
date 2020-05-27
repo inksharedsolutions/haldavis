@@ -16,6 +16,13 @@ $smallBreakpoints : 550px;
         height: 90vh !important;
     }
 
+    .img-wrapper {
+        img{
+            display: none;
+            animation-iteration-count: initial !important;
+        }
+    }
+
     .heading-quote{
         margin-top: 0 !important;
         margin-bottom: 3em;
@@ -125,9 +132,9 @@ $smallBreakpoints : 550px;
         transform: translate3d(0px,0,0) !important;
     }
 
-    .ellipse{
-        display:none;        
-    }
+    // .ellipse{
+    //     display:none;        
+    // }
 
     .footer-nav-list{
         text-align: center !important;
@@ -182,7 +189,7 @@ $smallBreakpoints : 550px;
     }
 
     .bottom-heading-bn{
-        transform: translate(0px, 0px) !important;
+        transform: translate(0px, 17vh) !important;
     }
 
     .first-heading{
@@ -292,11 +299,6 @@ $smallBreakpoints : 550px;
         }
     }
 
-    .img-wrapper {
-        img{
-            animation-iteration-count: initial !important;
-        }
-    }
 
     .event-ft {
         p{
