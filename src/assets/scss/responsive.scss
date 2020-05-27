@@ -26,6 +26,7 @@ $smallBreakpoints : 550px;
 
     .author-name{
         position: static !important;
+        display: block;
     }
 
     .mid-content,
@@ -235,6 +236,7 @@ $smallBreakpoints : 550px;
 @media only screen and (max-width:  $smallBreakpoints ){
 
 
+
     .f-num-list{
         letter-spacing: 3px;
     }
@@ -257,6 +259,9 @@ $smallBreakpoints : 550px;
          }
     }
     .testimonial-container-head{
+
+        padding: 2em 0.5em !important;
+
         h1{
             font-size: 4em !important;  
         }
@@ -304,4 +309,13 @@ $smallBreakpoints : 550px;
         }
     }
          
+}
+
+@media only screen and (max-width: 450px ){
+
+    .bottom-heading-bn,
+    .first-heading{
+        font-size: 1.6em !important;
+    }
+
 }
