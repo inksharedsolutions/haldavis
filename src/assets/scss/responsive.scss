@@ -18,7 +18,9 @@ $smallBreakpoints : 550px;
         margin-bottom: 3em;
     }
 
- 
+    .column{
+        padding: 0 !important;
+    }
 
     .author-image-container{
         img{
@@ -248,11 +250,6 @@ $smallBreakpoints : 550px;
         top: 47vh !important;
     }
 
-    // .first-heading{
-    //     top: 0vh !important;
-    //     transform: translateY(166px) !important;
-    // }
-
     .upper-main{
          p{
             max-width: 300px !important;
@@ -261,6 +258,7 @@ $smallBreakpoints : 550px;
              display: block !important;
          }
     }
+
     .testimonial-container-head{
 
         padding: 2em 0.5em !important;
@@ -278,10 +276,6 @@ $smallBreakpoints : 550px;
             width: 49px !important;
         }
     }
-
-    // .banner-wrapper{
-    //     height: 76vh !important;
-    // }
 
     .img-wrapper {
         img{
