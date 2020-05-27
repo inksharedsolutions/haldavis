@@ -12,7 +12,10 @@ $smallBreakpoints : 550px;
 
 
 @media only screen and (max-width: $mediumBreakpoints){
-    
+    .banner-wrapper{
+        height: 90vh !important;
+    }
+
     .heading-quote{
         margin-top: 0 !important;
         margin-bottom: 3em;
