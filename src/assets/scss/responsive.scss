@@ -1,18 +1,21 @@
 
 /*Responsive Breakpoints*/
 
-$largeBreakpoints: 1250px;
+$largeBreakpoints: 1300px;
 $mediumBreakpoints: 990px;
 $smallBreakpoints : 550px;
 
 
 @media only screen and (max-width: $largeBreakpoints){
-
+    .img-wrapper {
+        img{
+            width: 16% !important;
+        }
+    }
 }
 
 
 @media only screen and (max-width: $mediumBreakpoints){
-
 
     .first-book,
     .second-book,
