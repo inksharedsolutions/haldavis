@@ -11,7 +11,7 @@ const UpperMain = ()=>{
                     </span> 
                     <h1 data-aos="fade-up">
                         <span>&#10077;</span>
-                        Come on you feather merchants, sucker up buttercup 
+                        Come on you feather merchants, Suck It Up Buttercup!
                         <span> &#10078;</span>
                     </h1>
                     <p data-aos="fade-up"
