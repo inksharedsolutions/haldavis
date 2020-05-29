@@ -16,8 +16,8 @@ const UpperMain = ()=>{
                     </h1>
                     <p data-aos="fade-up"
                        data-aos-duration="3500">
-                        You should write because you love the shape of stories
-                        and sentences and the creation of different words on a page.
+                         A life well-lived is a life of endurance, resilience,
+                         and a boatload of wit and sarcasm.
                     </p>
                 </div>
             </section>

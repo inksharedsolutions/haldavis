@@ -48,47 +48,13 @@ const LowerMain = () =>{
 
                 <div className="wrapper-ups">
                     <div className="lower-content section-two-col-grid">
-                        <div className="content-wrapper-ft" 
+                        <div 
+                            className="content-wrapper-ft" 
                              data-aos="fade-up"
                              data-aos-duration="3000">
                             
                             <span className="fb-num left-span">
                                 <span>01</span>
-                            </span>
-
-                            <h1>
-                                Beyond the Mountains and Across
-                                the Seas: Over 50 Years of Romanticizing Travel
-                            </h1>
-
-                            <p>
-                              To put one's travel life into proper perspective can be like teetering on the edge of history. 
-                              To have lived it, I was totally ensconced in parts of the events that became monumental worldwide.
-                            </p>
-
-                            <div className="btn-container">
-                                <Link to="/about-the-book">
-                                    Read More
-                                </Link>
-                                <span class="long-arrow-right"></span>
-                            </div>
-                        </div>
-
-                        <div className="first-book img-book-container">
-                            <img src={Book1}/>
-                        </div>
-                    </div>
-
-                    <div className="lower-content section-two-col-grid">
-                        <div className="second-book img-book-container overlap">
-                            <img src={Book2}/>
-                        </div>
-
-                        <div className="content-wrapper-ft"
-                             data-aos="fade-up"
-                             data-aos-duration="3000">
-                            <span className="fb-num right-span">
-                                <span>02</span>
                             </span>
 
                             <h1>
@@ -105,13 +71,48 @@ const LowerMain = () =>{
 
                             
                             <div className="btn-container">
-                            <span class="long-arrow-left"></span>
-                                <Link className="arrow-ft-r" to="/about-the-book">
-                                    Read More
-                                </Link>
+                                <span class="long-arrow-left"></span>
+                                    <Link className="arrow-ft-r" to="/about-the-book">
+                                        Read More
+                                    </Link>
+                                </div>
                             </div>
 
+                             <div className="first-book img-book-container">
+                                <img src={Book2}/>
                         </div>
+                    </div>
+
+                    <div className="lower-content section-two-col-grid">
+                        <div className="second-book img-book-container overlap">
+                            <img src={Book1}/>
+                        </div>
+
+                        <div className="content-wrapper-ft"
+                             data-aos="fade-up"
+                             data-aos-duration="3000">
+                            <span className="fb-num right-span">
+                                <span>02</span>
+                            </span>
+
+                              <h1>
+                                  Beyond the Mountains and Across
+                                  the Seas: Over 50 Years of Romanticizing Travel
+                              </h1>
+
+                              <p>
+                                To put one's travel life into proper perspective can be like teetering on the edge of history. 
+                                To have lived it, I was totally ensconced in parts of the events that became monumental worldwide.
+                              </p>
+
+                                <div className="btn-container">
+                                    <Link to="/about-the-book">
+                                        Read More
+                                    </Link>
+                                <span class="long-arrow-right"></span>
+                             </div>
+                         </div>
+
                     </div>
                 </div>
             </secton>

@@ -271,6 +271,11 @@ $smallBreakpoints : 550px;
 
 @media only screen and (max-width:  $smallBreakpoints ){
 
+    .upper-main{
+        h1{
+            font-size: 1.6em !important;
+        }
+    }
 
 
     .f-num-list{
@@ -293,12 +298,14 @@ $smallBreakpoints : 550px;
     }
 
     .ellipse{
+
         position: absolute;
         height: 300px !important;
         width: 300px !important;
         border-radius: 50%;
         z-index: -2;
         border: 7px solid #26b6db;
+
         .ellipse-inner{
             position: absolute;
             height: 250px !important;
@@ -330,7 +337,6 @@ $smallBreakpoints : 550px;
             left: 0 !important;
         }
     }
-
 
     .event-ft {
         p{

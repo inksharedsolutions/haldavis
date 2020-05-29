@@ -64,17 +64,14 @@ const ATB = (props)=>{
                             spanTitle: 'Over 50 years of Romanticizing Travel',
                             imgSrc: Book1,
                             content:
-                            `Hal Davis is a distinguished US Marine (Ret.) with a career that spanned twenty-two years.
-                            In his heart, service is for a lifetime. He grew up in Knoxville Tennessee, 
-                            and life back then was never easy. Deprived of all the good things that a childhood
-                            normally brings, he remained steadfast in reaching his goals. He became a Tennessee State Trooper,
-                            FBI Special Investigator, United States Secret Service Agent to two US presidents (Nixon and Ford),
-                            and a Marine and Naval Criminal Investigator.
-                            
-                            Hal is currently serving as a Knox County Sheriff’s Deputy. He had a fulfilling fifty-threeyear career,
-                            but more than that, Hal is a loving husband to Susan and a father-hero figure to Allison, 
-                            who’s now their guardian angel in heaven. He is also the author of From an Outhouse to the
-                            White House, and Then Some.`,
+                            `To put one's travel life into proper perspective can be like teetering on the edge of history.
+                             To have lived it, I was totally ensconced in parts of the events that became monumental worldwide. 
+                             The history became real for me due to my employment with the United States Secret Service, 
+                             Federal Bureau of Investigation, Tennessee State Trooper, Naval Criminal Investigative Service, 
+                             and career Marine allowed me to be in some of the historical places. Additionally,
+                             the meeting of the foreign Heads of State, The Royals, and other famous people from many
+                             other countries was truly remarkable. Undeniably, my journey from the land to each of the
+                             coast in different continents were indeed a great adventure!`,
 
                             ebooks:{
                                 stratton : 'https://www.stratton-press.com/books/beyond-the-mountains-and-across-the-seas-over-50-years-of-romanticizing-travel/',
