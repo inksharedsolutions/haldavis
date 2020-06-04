@@ -29,8 +29,7 @@ const ATA  = ()=>{
                                 </div>
 
                                 <h4>
-                                    Come on you feather merchants, 
-                                    sucker up buttercup
+                                    Suck It Up Buttercup!
                                 </h4>
 
                                 <span className="ata-span-fx">author quote</span>
