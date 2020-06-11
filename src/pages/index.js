@@ -31,7 +31,6 @@ const IndexPage = () => {
             <LowerMain/>
             <BottomMain/>
             <Footer/>
-        
         </>
     )
 }

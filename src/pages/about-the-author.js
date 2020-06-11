@@ -12,7 +12,7 @@ const ATA  = ()=>{
 
                 <Banner 
                     spanFirst={`About the`}
-                    contextHeading={`Author`} 
+                    contextHeading={`Author`}
                 />
 
                 <div className="container">
@@ -30,7 +30,7 @@ const ATA  = ()=>{
 
                                 <h4>
                                     Come on you feather merchants, 
-                                    Suck It Up Buttercup
+                                    suck it up, buttercup!
                                 </h4>
 
                                 <span className="ata-span-fx">author quote</span>
@@ -39,7 +39,6 @@ const ATA  = ()=>{
 
                         <div className="column">
                             <article className="article-section">
-
                                 <p>
                                     Hal Davis is a distinguished US Marine (Ret.) With a career that spanned twenty-two years.
                                     In his heart, service is for a lifetime. He grew up in Morehead, Kentucky, 

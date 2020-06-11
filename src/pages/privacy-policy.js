@@ -34,7 +34,9 @@ const Pp = () =>{
 
 	 			<div className="container">
 					<div id="privacy-policy-content">
-	 					<div className="">{Parser(data.html)}</div>
+	 					<div className="">
+							 {Parser(data.html)}
+						</div>
  					</div>
  				</div>
 	 		</Layout>

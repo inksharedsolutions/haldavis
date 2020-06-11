@@ -38,6 +38,7 @@ const ATB = (props)=>{
                             This book is a real testament of how long-suffering, perseverance, loyalty, 
                             integrity, and patriotism. Hal's wit and humor which he never outgrew even until 
                             today, allowed him to associate with highly recognized and well-established people. 
+                            
                             His life really began after he was kicked out by his father. He had a bitter 
                             childhood that continued well into his teens, but everything changed after he
                             became a member of the United States Marine Corps. His success was not given
@@ -46,9 +47,9 @@ const ATB = (props)=>{
                             White House, and Then Some, will show you just how he did it.`,
 
                             ebooks:{
-                                stratton : 'https://www.stratton-press.com/books/from-an-out-house-to-the-white-house-and-then-some/',
+                                stratton: 'https://www.stratton-press.com/books/from-an-out-house-to-the-white-house-and-then-some/',
                                 barnes: 'https://www.barnesandnoble.com/w/from-an-out-house-to-the-white-house-hal-davis/1136867362?ean=9781648950179',
-                                amazon :'https://www.amazon.com/Out-House-White-Then-Some-ebook/dp/B0875KQW9Q/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1588017993&sr=8-1', 
+                                amazon:'https://www.amazon.com/Out-House-White-Then-Some-ebook/dp/B0875KQW9Q/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1588017993&sr=8-1', 
                             },
                             paperback:{
                                 amazon:'https://www.amazon.com/Out-House-White-Then-Some/dp/1648950159/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1588017993&sr=8-1',
@@ -76,7 +77,7 @@ const ATB = (props)=>{
                             ebooks:{
                                 stratton : 'https://www.stratton-press.com/books/beyond-the-mountains-and-across-the-seas-over-50-years-of-romanticizing-travel/',
                                 barnes: 'https://www.barnesandnoble.com/w/beyond-the-mountains-and-across-the-seas-hal-davis/1136867361?ean=9781648950148',
-                                amazon :'https://www.amazon.com/Beyond-Mountains-Across-Seas-Romanticizing-ebook/dp/B0875T5BJQ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1589582810&sr=8-1', 
+                                amazon:'https://www.amazon.com/Beyond-Mountains-Across-Seas-Romanticizing-ebook/dp/B0875T5BJQ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1589582810&sr=8-1', 
                             },
                             paperback:{
                                 amazon:'https://www.amazon.com/Beyond-Mountains-Across-Seas-Romanticizing/dp/1648950124/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1589582810&sr=8-1',
