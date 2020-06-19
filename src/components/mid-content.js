@@ -22,7 +22,7 @@ const MidContent = ()=>{
                             <h1>Events</h1>
                             <p>
                                 He had done so much and traveled so 
-                                much in his life before he met met
+                                much in his life before he met Susan.
                             </p>
                         </h1>
                     </div>

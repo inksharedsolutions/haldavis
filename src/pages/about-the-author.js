@@ -41,7 +41,7 @@ const ATA  = ()=>{
                             <article className="article-section">
                                 <p>
                                     Hal Davis is a distinguished US Marine (Ret.) With a career that spanned twenty-two years.
-                                    In his heart, service is for a lifetime. He grew up in Morehead, Kentucky, 
+                                    In his heart, service is for a lifetime. He grew up in Ashland, Kentucky, 
                                     and life back then was never easy. Deprived of all the good things that a childhood normally brings,
                                     I've remained steadfast in reaching his goals. He became a Tennessee State Trooper, FBI Special Investigator,
                                     United States Secret Service Agent to two US presidents, and a Marine and Naval Criminal Investigator.
