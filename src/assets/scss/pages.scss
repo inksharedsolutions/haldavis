@@ -414,3 +414,26 @@ $prm-font-size : 12px;
         border: 1em solid #e8e8e8;
     }
 }
+
+.ata-slider{
+    margin-bottom: 50px;
+
+    .slick-initialized .slick-slide {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .book-wrapper-slider{
+        background: #fff;
+        padding: 6%;
+        box-shadow: -1px 1px 28px 4px #f1f1f1;
+        border-radius: 50px;
+        margin: 10px 0;
+    }
+
+    .author-img img{
+        width: 400px;
+        max-width: 100%;
+        border-radius: 50px;
+    }
+}

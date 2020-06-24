@@ -1,11 +1,36 @@
-import React from 'react'
+import React, {useState, useEffect } from 'react'
 import Layout from '../components/layout'
 import Banner from '../components/o-pages/banner'
 import AuthorImg from '../../static/img/author.png'
 import Img1 from '../../static/author/1.jpg'
 import Img2 from '../../static/author/2.jpg'
+import Img3 from '../../static/author/3.jpg'
+import Img4 from '../../static/author/4.jpg'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const ATA  = ()=>{
+
+    const [mobState, __functState] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener("resize", ()=>{ 
+            __functState(window.innerWidth <= 760);
+        });
+
+      }, [mobState]); 
+
+      console.log(mobState);
+
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: (mobState) ? 1 : 3,
+        slidesToScroll: 1,
+     };
+
     return(
         <>
          <Layout>
@@ -52,16 +77,21 @@ const ATA  = ()=>{
                         </div>
                     </section>
 
-                     <div className="grid-images-author">
-                        <div className="author-img">
-                            <img src={Img1}/>
+                    <Slider {...settings} className="ata-slider">
+                        <div className="book-wrapper-slider author-img">
+                            <img src={Img1} alt="author image" />
                         </div>
-
-                        <div className="author-img">
-                            <img src={Img2}/>
+                        <div className="book-wrapper-slider author-img">
+                            <img src={Img2} alt="author image" />
                         </div>
-                    </div>
-
+                        <div className="book-wrapper-slider author-img">
+                            <img src={Img3} alt="author image" />
+                        </div>
+                        <div className="book-wrapper-slider author-img">
+                            <img src={Img4} alt="author image" />
+                        </div>
+                    </Slider>
+                    
                 </div>
          </Layout>
         </>
