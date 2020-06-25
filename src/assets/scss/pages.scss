@@ -437,3 +437,20 @@ $prm-font-size : 12px;
         border-radius: 50px;
     }
 }
+
+.body-reviews{
+    margin: 2em 0!important;
+    padding: 44px;
+    border-bottom: 1px solid #eee;
+
+    h1{
+       text-align: left;
+       font-size: 3rem;
+       font-weight:700;
+       color: #000;
+       margin-bottom: 1em;
+    }
+    p{
+        color: #000;
+    }
+}

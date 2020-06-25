@@ -1,5 +1,6 @@
 import React from 'react'
 import Testimonial from './testimonial'
+import {Link} from 'gatsby';
 
 const BottomReact = ()=>{
     return(
@@ -26,6 +27,13 @@ const BottomReact = ()=>{
                                 content={`The City View Magazine Knoxville article`}
                                 year={`2016`}
                             />
+
+                            <div className="btn-container">
+                                <Link to="/testimonials-and-reviews">
+                                    Read More
+                                </Link>
+                                <span class="long-arrow-right"></span>
+                            </div>
                         </div>
 
                         <div className="testimonial-container-head"
