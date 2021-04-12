@@ -5,6 +5,7 @@ import Parser from 'html-react-parser';
 
 import Layout from '../components/layout'
 import Banner from '../components/o-pages/banner'
+import { Helmet } from 'react-helmet';
 
 const TaC = () =>{
 
@@ -27,6 +28,7 @@ const TaC = () =>{
 	return(
 	 	<>
 	 		<Layout>
+				 	<Helmet title="Hal Davis | Terms and Conditions" />
                     <Banner 
                             spanFirst={`Terms And`}
                             contextHeading={`Conditions`} 

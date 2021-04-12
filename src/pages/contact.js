@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Banner from '../components/o-pages/banner'
 import Inputs from "../components/Inputs/input"
+import { Helmet } from 'react-helmet'
 
 const Contact = ()=>{
 
@@ -30,6 +31,7 @@ const Contact = ()=>{
 
     return(
          <Layout>
+			 <Helmet title="Hal Davis | Contact" />
             <Banner 
                     spanFirst={`Get in`}
                     contextHeading={`Touch`} 

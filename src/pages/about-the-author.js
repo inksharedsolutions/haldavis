@@ -9,6 +9,7 @@ import Img4 from '../../static/author/4.jpg'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Helmet } from 'react-helmet'
 
 const ATA  = ()=>{
 
@@ -34,7 +35,7 @@ const ATA  = ()=>{
     return(
         <>
          <Layout>
-
+                <Helmet title="Hal Davis | About the Author"/>
                 <Banner 
                     spanFirst={`About the`}
                     contextHeading={`Author`}

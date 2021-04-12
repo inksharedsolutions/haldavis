@@ -3,13 +3,14 @@ import Layout from '../components/layout'
 import Banner from '../components/o-pages/banner'
 import Testimonial from '../components/testimonial'
 import Review from '../components/reviews'
+import { Helmet } from 'react-helmet'
 
 const TaR  = ()=>{
 
     return(
         <>
          <Layout>
-
+                <Helmet title="Hal Davis | Testimonials and Reviews" />
                 <Banner 
                     spanFirst={`Testimonials and`}
                     contextHeading={`Reviews`}

@@ -8,6 +8,7 @@ import Main from '../components/main'
 import LowerMain from '../components/lower-main'
 import BottomMain from '../components/bottom-main'
 import Footer from '../components/footer'
+import { Helmet } from "react-helmet"
 
 
 const IndexPage = () => {
@@ -23,6 +24,7 @@ const IndexPage = () => {
                 <div className="s-three"></div>
             </div> 
             
+            <Helmet title="Hal Davis | Home" />
             <Nav/>
             <Banner/>
             <UpperMain/>

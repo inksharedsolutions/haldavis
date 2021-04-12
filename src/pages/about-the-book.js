@@ -5,6 +5,7 @@ import Banner from '../components/o-pages/banner'
 import BookInfo  from '../components/book-info/book-info'
 import Book1 from '../../static/img/book_1.jpg'
 import Book2 from '../../static/img/book_2.jpg'
+import { Helmet } from 'react-helmet'
 
 const ATB = (props)=>{
 
@@ -19,6 +20,7 @@ const ATB = (props)=>{
     return(
         <>
         <Layout>
+            <Helmet title="Hal Davis | About the Book" />
             <Banner 
                 spanFirst={`About the`}
                 contextHeading={`Book`} 
@@ -47,7 +49,7 @@ const ATB = (props)=>{
                             White House, and Then Some, will show you just how he did it.`,
 
                             ebooks:{
-                                stratton: '',
+                                stratton: 'https://www.stratton-press.com/books/from-an-out-house-to-the-white-house-and-then-some/',
                                 barnes: 'https://www.barnesandnoble.com/w/from-an-out-house-to-the-white-house-hal-davis/1136867362?ean=9781648950179',
                                 amazon:'https://www.amazon.com/Out-House-White-Then-Some-ebook/dp/B0875KQW9Q/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1588017993&sr=8-1', 
                             },
@@ -58,7 +60,6 @@ const ATB = (props)=>{
                             }
                         }}
                     />
-	    	    {/*Stratton Link: https://www.stratton-press.com/books/from-an-out-house-to-the-white-house-and-then-some/*/}
 
                     <BookInfo  
                         data={{
@@ -76,7 +77,7 @@ const ATB = (props)=>{
                              coast in different continents were indeed a great adventure!`,
 
                             ebooks:{
-                                stratton : '',
+                                stratton : 'https://www.stratton-press.com/books/beyond-the-mountains-and-across-the-seas-over-50-years-of-romanticizing-travel/',
                                 barnes: 'https://www.barnesandnoble.com/w/beyond-the-mountains-and-across-the-seas-hal-davis/1136867361?ean=9781648950148',
                                 amazon:'https://www.amazon.com/Beyond-Mountains-Across-Seas-Romanticizing-ebook/dp/B0875T5BJQ/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1589582810&sr=8-1', 
                             },
@@ -88,7 +89,6 @@ const ATB = (props)=>{
                         }}
 
                     />
-	    	    {/*Stratton Link: https://www.stratton-press.com/books/beyond-the-mountains-and-across-the-seas-over-50-years-of-romanticizing-travel/*/}
 							
                     <div className="commentSection" >
                         <DiscussionEmbed {...disqusConfig} />
